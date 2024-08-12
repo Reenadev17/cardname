@@ -1,0 +1,94 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:focus, a:active {
+    outline: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+  background: #333334;
+  display: grid;
+  place-items: center;
+}
+main{
+  justify-content: center;
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  border-radius: 30px;
+  max-height: 600px;
+  gap: 20px;
+  background: url('bg.jpg');
+}
+.center{
+  display: flex;
+  align-items: center;
+}
+.col{
+  flex-direction: column;
+}
+
+#rian{
+  width: 250px;
+  height: 250px;
+}
+.linkContainer{
+  background: white;
+  margin-top: 10px;
+  width: 330px;
+  padding: 20px;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+.shadow{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+#rian{
+  border-radius: 99999%;
+}
+
+.img-container{
+  gap: 10px;
+}
+#name{
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background:#5DB4FF ;
+}
+.fa{
+  transition: 0.4s;
+  font-size: 40px;
+}
+
+a:hover,a:active{
+  opacity: 0.6;
+}
+
+p{
+  text-align: center;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+
+#instagram{
+  color: #DF47EC;
+}
+#youtube{
+  color: red;
+}
+#github{
+  color: black;
+}
+#linkedin{
+  color:#007FEC ;
+}
+
+.fa:hover{
+  transform: scale(1.15);
+}
