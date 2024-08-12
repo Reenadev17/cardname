@@ -11,8 +11,8 @@ a:focus, a:active {
 }
 body{
   background: #333334;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
 }
 main{
   justify-content: center;
