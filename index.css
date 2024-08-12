@@ -24,6 +24,7 @@ main{
   border-radius: 30px;
   gap: 20px;
   background: url('bg.jpg');
+  background-size:cover;
   min-height: 100vh;
 }
 .center{
