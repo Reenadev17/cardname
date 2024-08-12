@@ -10,22 +10,21 @@ a:focus, a:active {
     -webkit-tap-highlight-color: transparent;
 }
 body{
-  width:100vw;
-  height:100vh;
   background: #333334;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
+
 main{
   justify-content: center;
   width: 100%;
   max-width: 360px;
-  height: 100%;
   border-radius: 30px;
-  max-height: 600px;
   gap: 20px;
   background: url('bg.jpg');
+  min-height: 100vh;
 }
 .center{
   display: flex;
